@@ -1,0 +1,398 @@
+/* -- Meraz Islam -- */
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:sans-serif;
+}
+h1{
+	color:black;
+	font-size:2.25rem;
+	text-align:center;
+	text-transform:uppercase;
+}
+h6{
+	color:#7878ff;
+	font-size:1.125rem;
+	font-weight:500;
+	text-align:center;
+	margin-top:0;
+}
+p{
+	color:#a7a7a7;
+	line-height:1.8;
+	font-size:1rem;
+	text-align:center;
+}
+
+section{
+	padding-top:150px;
+	padding-bottom:50px;
+}
+.container{
+	width:1100px;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+.col-33{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+.col-25{
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.col-50{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.content{
+	margin-left:20px;
+	margin-right:10px;
+	margin-bottom:30px;
+}
+i{
+	font-size:2rem;
+	color:yellow;
+}
+.btn{
+	padding:10px 25px;
+	background-color:#5b98f3;
+	border:0px;
+	border-radius:25px;
+	font-size:.95rem;
+	text-transform:uppercase;
+	color:white;
+}
+/* -- Header Part -- */
+header{
+	padding-top:20px;
+	padding-bottom:5px;
+	width:100%;
+	position:fixed;
+	background-color:#00000045;
+	z-index:99;
+	
+}
+/* -- Company Part -- */
+.company{
+	padding-left:35px;
+	float:left;
+}
+.company img{
+	float:left;
+	display:block;
+}
+.company h2{
+	float:left;
+	color:white;
+	font-size:2rem;
+	text-transform:uppercase;
+	margin:20px;
+}
+
+/* -- Main Menu Part -- */
+#main-menu{
+	padding-right:35px;
+	float:right;
+	margin-top:50px;
+}
+#main-menu ul{
+	list-style:none;
+}#main-menu ul li{
+	float:left;
+	margin:auto 2px;
+}
+#main-menu ul li a{
+	padding:10px 25px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+}
+#main-menu ul li a:hover{
+	background-color:#FF00FF;
+	colora:#5b98f3;
+}
+.active a{
+	background-color:#FF00FF;
+	colora:#5b98f3 !important;
+	
+}
+/* -- Home Part -- */
+#home{
+	background-image:url('../images/banner.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:0;
+	margin-bottom:-80px;
+}
+#home .author-text{
+	text-align:left; 
+	margin-top:150px;
+}
+#home p{
+	text-align:left;
+	color:yellow; 
+	font-size:1rem; 
+	text-transform:uppercase; 
+	text-align:left;
+}
+#home h6{
+	color:white; 
+	font-size:1.25rem; 
+	text-transform:uppercase; 
+	text-align:left;
+}
+#home h2{
+	color:yellow; 
+	font-size:2.5rem; 
+	text-transform:uppercase; 
+	margin-bottom:25px; 
+	text-align:left;
+}
+#home img{
+	height:450px;
+	width:auto;
+	float:right;
+}
+/* -- About me Part -- */
+#progress .col-33{
+	margin-top:10px
+	margin-bottom:100px;
+}
+
+#progress h5{
+	text-align:left;
+	color:#6d6c6c;
+	text-transform:uppercase;
+}
+.progressbar{
+	height:10px;
+	width:100%;
+	background-color:#dcdcdc;
+	border-radius:5px;
+	margin:10px auto;
+}
+.progress-achieve{
+	height:10px;
+	width:100%;
+	background-color:yellow;
+	border-radius:5px;
+}
+/* -- Service Part -- */
+#service{
+	background-image:url('../images/service.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#service .content{
+	background-color:#ffffff47;
+	border-radius:5px;
+	padding:55px;
+}
+#service .content:hover{
+	background-color:#FF00FF;
+}
+
+#service h3{
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+	text-transform:uppercase;
+}
+#service p{
+	font-size:.9rem;
+	color:white;
+}
+/* -- Poiject Part -- */
+#project img{
+	height:250px;
+	width:100%;
+}
+#project h1{
+	margin-bottom:50px;
+}
+#project .contant{
+    position: relative;
+	padding:15px;
+}
+
+#project .overlay{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    display: none;
+}
+#project .contant:hover .overlay{
+    display: block;
+}
+/* -- review Part -- */
+#review{
+	background-image:url('../images/stage.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#review h3{
+	font-size:2rem;
+	color:white;
+	margin:25px auto 30px;
+}
+#review h5{
+	color:white;
+	font-size:1rem;
+	margin-bottom:20px;
+}
+/* -- review Part -- */
+#contact{
+	background-image:url('../images/contac.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:60px;
+}
+#contact h1{
+	color:white;
+	margin-bottom:35px;
+}
+#contact h6{
+	color:yellow;
+}
+#contact form input, #contact form textarea{
+	width: 95%;
+    background-color: white;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#contact textarea{
+	height:135px;
+	width:500px;
+}
+#contact button{
+	 border-radius:5px; 
+	 padding:15px 35px;
+	 margin-right:430px; 
+	 margin-left:410px;
+	 background-color:#216fe2;
+}
+#contact button:hover{
+    background-color: #FF00FF;
+}
+#address{
+	margin:50px auto 25px;
+}
+#address p{
+	font-size:.9rem;
+	color:white;
+	margin-top:15px;
+}
+/*-- Footer Part --*/
+footer{
+	overflow:hidden;
+	background-color:#f5f5f5;
+	padding:25px 0;
+}
+#copy-right{
+	float:left;
+	color:#484848;
+	margin:10px;
+}
+#social{
+	float:right;
+}
+#social ul{
+	list-style:none;
+}
+#social ul li{
+	float:left;
+	margin:auto 15px;
+	height:20px;
+	width:25px;
+	border:2px solid #484848;
+	border-radius:50%;
+	padding-top:5px;
+	text-align:center;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}
+#social ul li i{
+	font-size:.9rem;
+	color:#484848;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	height:30px;
+	width:40px;
+	bottom:25px;
+	background-color:#17161694;	
+	text-align:center;
+	padding-top:10px;
+}
+#upper i{
+	font-size:1.5rem;
+	color:white;
+}
+
+/* ---- Divice Viw ------*/
+@media(max-width:1100px) {
+	.container{
+		width:100%;
+	}
+}
+@media(max-width:576px) {
+	.col-25, .col-33, .col-50{
+		width:100%;
+	}
+	#home .col-50{
+		width:50%;
+	}
+	#home img{
+		height:175px;
+	}
+	#home .author-text{
+	margin-top:25px;
+	}
+	#home p{
+		font-size:.75rem;	
+	}
+	#home h6{
+		font-size:.9rem;
+	}
+	#home h2{
+		font-size:1.25rem;
+		margin-bottom:100px;
+	}
+	#home .btn{
+		font-size:.75rem;
+		padding:7px 15px;
+	}
+	/* ---- Riviw Part ------*/
+	#review .col-25{
+		width:50%;
+	}
+	#review .content{
+		margin-top:30px;
+	}
+	/* ---- Footer Part ------*/
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	#social ul{
+		margin-left:25%;
+	}
+}
+
